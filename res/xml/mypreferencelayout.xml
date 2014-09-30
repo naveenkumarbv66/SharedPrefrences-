@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="General settings" >
+        <EditTextPreference
+            android:key="pre_name"
+            android:title="Name" />
+
+        <CheckBoxPreference
+            android:key="pre_checkbox"
+            android:summary="if u not selected, der is no image for ur apaccount."
+            android:title="View Image" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
